@@ -51,17 +51,17 @@
   <ItemGroup>
     <Compile Include="BitcoinRPC.cs" />
     <Compile Include="BitcoinRPCException.cs" />
-    <Compile Include="GetTransactionResponse.cs" />
-    <Compile Include="ListAddressGroupingsResponse.cs" />
-    <Compile Include="ListReceivedByAddressResponse.cs" />
-    <Compile Include="GetBlockResponse.cs" />
-    <Compile Include="GetMiningInfoResponse.cs" />
-    <Compile Include="GetMemoryPoolResponse.cs" />
-    <Compile Include="GetInfoResponse.cs" />
-    <Compile Include="GetWorkResponse.cs" />
-    <Compile Include="ListReceivedByAccountResponse.cs" />
-    <Compile Include="ListSinceBlockResponse.cs" />
-    <Compile Include="ListTransactionsResponse.cs" />
+    <Compile Include="ResponseClasses\GetTransactionResponse.cs" />
+    <Compile Include="ResponseClasses\ListAddressGroupingsResponse.cs" />
+    <Compile Include="ResponseClasses\ListReceivedByAddressResponse.cs" />
+    <Compile Include="ResponseClasses\GetBlockResponse.cs" />
+    <Compile Include="ResponseClasses\GetMiningInfoResponse.cs" />
+    <Compile Include="ResponseClasses\GetMemoryPoolResponse.cs" />
+    <Compile Include="ResponseClasses\GetInfoResponse.cs" />
+    <Compile Include="ResponseClasses\GetWorkResponse.cs" />
+    <Compile Include="ResponseClasses\ListReceivedByAccountResponse.cs" />
+    <Compile Include="ResponseClasses\ListSinceBlockResponse.cs" />
+    <Compile Include="ResponseClasses\ListTransactionsResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RPCError.cs" />
     <Compile Include="RPCRequest.cs" />
@@ -69,7 +69,7 @@
     <Compile Include="Test.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ValidateAddressResponse.cs" />
+    <Compile Include="ResponseClasses\ValidateAddressResponse.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
