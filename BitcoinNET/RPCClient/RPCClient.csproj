@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2A73ACEF-3A26-40C2-97B1-93B73407105A}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BitcoinNET.RPCClient</RootNamespace>
     <AssemblyName>BitcoinNET.RPCClient</AssemblyName>
