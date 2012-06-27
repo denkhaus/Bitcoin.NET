@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BitcoinRPC.cs" />
+    <Compile Include="BitcoinRPC.Methods.cs" />
     <Compile Include="BitcoinRPCException.cs" />
     <Compile Include="ResponseClasses\GetTransactionResponse.cs" />
     <Compile Include="ResponseClasses\ListAddressGroupingsResponse.cs" />
