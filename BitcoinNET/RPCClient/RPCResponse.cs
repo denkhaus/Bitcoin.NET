@@ -6,6 +6,6 @@ namespace BitcoinNET.RPCClient
 	{
 		public T result;
 		public RPCError error;
-		public int id;
+		public uint id;
 	}
 }

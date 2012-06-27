@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2A73ACEF-3A26-40C2-97B1-93B73407105A}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BitcoinNET.RPCClient</RootNamespace>
     <AssemblyName>BitcoinNET.RPCClient</AssemblyName>
@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BatchRPC.cs" />
+    <Compile Include="BatchRPC.Methods.cs" />
     <Compile Include="BitcoinRPC.cs" />
     <Compile Include="BitcoinRPC.Methods.cs" />
     <Compile Include="BitcoinRPCException.cs" />
